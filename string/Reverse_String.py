@@ -9,7 +9,7 @@
 # 1) input: Learning Python Is Very Easy
 # 2) output: Easy Very Is Python Learning
 
-str="Learning Python Is Very Easy"
+str="Learning Python656 Is Very Easy"
 s1=str.split()
 s2=s1[::-1]
 output=" ".join(s2)
