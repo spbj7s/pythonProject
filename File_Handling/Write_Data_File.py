@@ -1,0 +1,10 @@
+f=open('abc.txt','w')
+l=['\nsmruti\n','bunny\n','sunny\n','chinny\n']
+f.write('smruti\n')
+f.write('purna\n')
+f.write('badajena\n')
+f.writelines(' i love u tapasweeni')
+f.writelines(l)
+f=open('abc.txt','r')
+data=f.read()
+print(data)

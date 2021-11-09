@@ -1,0 +1,13 @@
+f=open("smuti.txt",'w')
+f.write("all the people are stupid")
+with open('smuti.txt','r+') as f:
+    text=f.read()
+    print("print the data before modification")
+    print(text)
+    print("print the current location of the file",f.tell())
+    f.seek(8)
+    f.write("stude")
+    f.seek(0)
+    print("data after modification")
+    text=f.read()
+    print(text)
